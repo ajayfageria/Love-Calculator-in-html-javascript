@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Love Calculator</title>
+    <style>
+        body {
+            background-image: url("https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+        
+        header {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <script src="index.js" type="text/javascript"></script>
+    <!-- <div id="div1">
+        You are in first div
+        <button onclick="myFuns('div1')">Print1</button>
+    </div>
+    <div id="div2">
+        You are in second div
+        <button onclick="myFuns('div2')">Print2</button>
+    </div>
+    <div id="div3">
+        You are in third div
+        <button onclick="myFuns('div3')">Print3</button>
+    </div>
+    <button onclick="fullFuns()">Print</button> -->
+
+    <!-- <h1 id="para">this is a praragraph</h1>
+    <button onclick="myFun()">Click me</button> -->
+    <!-- <h3 id="heading">Enter string for reverse</h3>
+    <input type="text" id="input1" onkeyup="reverseString()">
+    <input type="text" id="input2"> -->
+    <header>
+        <div class="card w-50 m-auto text-center">
+            <div class="card-header bg-danger text-white">Love Calculator</div>
+            <div class="card-body">
+                <form class="form-inline w-100 m-auto">
+                    <div class="form-group ml-5">
+                        <input class="form-control text-center" type="text" id="input1" value="" placeholder="Your name">
+
+                    </div>
+                    <div>
+                        <span class="pl-4 pr-4"> + </span>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control text-center" type="text" id="lovername" value="" placeholder="Your lover name">
+
+                    </div>
+                </form>
+                <br>
+                <div class="w-75 m-auto">
+                    <button class="btn btn-success w-50" onclick="calculateLove()">Calculate</button>
+                </div>
+                <br>
+                <div>
+                    <input type="text" id="lovevalue" class="form-control text-center w-25 m-auto" placeholder="Love percentage">
+                </div>
+            </div>
+            <div class="card-footer">God bless your relationship
+                <br>
+                <span class="float-right text-danger">Build by : Ajay Kumar</span>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
